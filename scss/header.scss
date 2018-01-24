@@ -1,4 +1,6 @@
 .header {
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
     @media(max-width: 400px) {
 	    &__logo {
 	    	width: 70%;

@@ -1,0 +1,71 @@
+﻿html {
+	font-size: 16px;
+}
+a:hover, a:focus {
+	text-decoration: none;
+	color: #fff;
+}
+button:focus {
+	outline: none;
+}
+ul {
+	margin: 0px;
+}
+body {
+  position: relative;
+}
+%center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+@media (min-width: 1200px) {
+	.container {
+	    max-width: 1323px;
+	}
+}
+.button {
+	padding: 7px 53px;
+	font-family: "PN-regular";
+	font-size: 1.1rem;
+	line-height: 36px;
+	color: #fff;
+	border-radius: 70px;
+	&:hover {
+		color: #fff;
+
+	}
+	&-pink {
+		background-image: -moz-linear-gradient( 16deg, rgb(73,0,124) 0%, rgb(231,0,136) 100%);
+		background-image: -webkit-linear-gradient( 16deg, rgb(73,0,124) 0%, rgb(231,0,136) 100%);
+		background-image: -ms-linear-gradient( 16deg, rgb(73,0,124) 0%, rgb(231,0,136) 100%);
+		&:hover {
+			box-shadow: #49007c 0 0 5px 1px, inset #e70088 0 0 8px;
+		}
+	}
+}
+
+@import "header.scss";
+
+@import "main.scss";
+
+@import "code.scss";
+
+@import "what-we-do.scss";
+
+@import "portfolio.scss";
+
+@import "about-us.scss";
+
+@import "contact.scss";
+
+@import "footer.scss";
+
+
+// 16 - 100
+// 18 - 1.1rem
+// 24 - 1.5
+// 30 - 1.8rem
+// 41 - 2.5
+// 48 - 3rem;
